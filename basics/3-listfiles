@@ -1,6 +1,2 @@
-ls -l
 #!/bin/bash
-
-
-
-
+ls -ls
