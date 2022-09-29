@@ -1,5 +1,6 @@
+ls -l
 #!/bin/bash
-ls -al
+
 
 
 
