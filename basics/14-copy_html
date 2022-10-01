@@ -1,2 +1,3 @@
 #!/bin/bash
-cp /html/. .. 
+cp -n *.html /tmp/file_0.html
+
