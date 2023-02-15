@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "\"(Ôo)'"
+tail -n1 "\"(Ôo)'"
