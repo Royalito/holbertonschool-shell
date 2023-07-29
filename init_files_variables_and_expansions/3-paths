@@ -1,0 +1,11 @@
+#!/bin/bash
+#!/bin/bash
+
+# Guardamos el contenido del PATH en una variable separada por ':'
+path_content=$(echo $PATH | tr ':' '\n')
+
+# Usamos el comando wc para contar el número de líneas (que es igual al número de directorios)
+num_directories=$(echo "$path_content" | wc -l)
+
+# Imprimimos el resultado
+echo "Número de directorios en el PATH: $num_directories"
