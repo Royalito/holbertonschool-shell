@@ -1,12 +1,2 @@
 #!/bin/bash
-#include <stdio.h>
-#include <stdlib.h>
-
-int main() {
-    char *path = getenv("PATH");
-    int count = 1;
-    for (char *p = path; *p; p++)
-        count += (*p == ':');
-    printf("%d\n", count);
-    return 0;
-}
+echo $PATH | tr ':' '\n' | wc -l
